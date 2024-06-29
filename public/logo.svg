@@ -1,0 +1,7 @@
+<svg width="32" height="32" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-35.165 -10.614)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m219.17 75.41v13.182l53.318 53.318-53.318 53.316v13.191l63.207-63.207a4.6629 4.6629 0 0 0-3e-3 -6.5966z" color="#000000" fill="#000000" opacity=".97971" stroke="#000000" stroke-width="5.4412" style="paint-order:stroke markers fill"/>
+  <path d="m107.6 71.673-63.641 63.641a4.6629 4.6629 0 0 0-0.0058 6.5966l63.646 63.646v-13.191l-53.751-53.751 53.751-53.749z" color="#000000" fill="#000000" opacity=".97971" stroke="#000000" stroke-width="5.4412" style="paint-order:stroke markers fill"/>
+  <path d="m117.54 217.41 90.985-157.59" fill="#7fff2a" opacity=".97971" stroke="#44aa00" stroke-width="9.8051" style="paint-order:stroke markers fill"/>
+ </g>
+</svg>
