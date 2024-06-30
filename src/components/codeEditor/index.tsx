@@ -16,7 +16,7 @@ function CodeEditor() {
   };
   return (
     <div className="max-w-9xl container mx-auto flex flex-col gap-4">
-      <div className="flex gap-12 self-end px-4">
+      <div className="flex flex-col items-end gap-4 self-end px-4 md:flex-row md:gap-12">
         <PrismLangSelect lang={prismLang} updateLang={updateLang} />
         <PrismThemeSelect theme={prismTheme} updateTheme={updateTheme} />
       </div>
