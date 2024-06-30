@@ -1,4 +1,7 @@
-function Select({ children, ...props }: { children: React.ReactNode }) {
+function Select({
+  children,
+  ...props
+}: { children: React.ReactNode } & React.HTMLAttributes<HTMLSelectElement>) {
   return (
     <select className="rounded px-2 py-2" {...props}>
       {children}

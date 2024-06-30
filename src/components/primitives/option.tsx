@@ -1,6 +1,13 @@
-function Option({ children, ...props }: { children: React.ReactNode }) {
+function Option({
+  value,
+  children,
+  ...props
+}: {
+  value: string;
+  children: React.ReactNode;
+} & React.HTMLAttributes<HTMLOptionElement>) {
   return (
-    <option className="bg-black px-4 py-4" {...props}>
+    <option value={value} className="bg-black px-4 py-4" {...props}>
       {children}
     </option>
   );
