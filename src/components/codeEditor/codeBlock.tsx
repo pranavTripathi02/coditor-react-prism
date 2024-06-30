@@ -22,7 +22,8 @@ function CodeBlock({ prismTheme, prismLang }: TProps) {
   return (
     <div className="relative h-[450px] overflow-hidden px-4 md:h-[550px]">
       <textarea
-        className="absolute bottom-0 left-[56px] right-4 top-0 select-none resize-none overflow-y-auto break-all bg-transparent py-2 pe-4 font-mono tracking-tight text-transparent caret-green-400 focus:outline-none"
+        className="absolute bottom-0 left-[56px] right-4 top-0 select-none resize-none overflow-y-auto break-all bg-transparent py-2 pe-4 font-mono tracking-tight text-transparent caret-green-400 placeholder:opacity-100 focus:outline-none"
+        placeholder={prismLang.defaultCodeExample}
         spellCheck={false}
         name="codeBlock"
         value={codeText}
