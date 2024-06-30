@@ -17,7 +17,9 @@ function PrismLangSelect({ lang, updateLang }: TProps) {
       <span>Programming Language: </span>
       <Select onChange={handleChange} defaultValue={lang.lang}>
         {langList.map((lang) => (
-          <Option value={lang.lang}>{lang.lang}</Option>
+          <Option value={lang.lang} key={lang.lang}>
+            {lang.lang}
+          </Option>
         ))}
       </Select>
     </label>

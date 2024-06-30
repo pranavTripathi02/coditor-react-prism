@@ -1,11 +1,13 @@
 type TLink = {
+  id: number;
   name: string;
   uri: string;
 };
 const navLinks: TLink[] = [
   {
+    id: 1,
     name: "Source",
-    uri: "github.com/pranavTripathi07/coditor-react-prism",
+    uri: "https://www.github.com/pranavTripathi02/coditor-react-prism",
   },
 ];
 function Footer() {
@@ -17,8 +19,8 @@ function Footer() {
         </span>
         <div className="flex flex-col items-center gap-1 md:flex-row">
           {navLinks.map((link) => (
-            <>
-              <a href={link.uri} className="hover:underline">
+            <div key={link.id}>
+              <a href={link.uri} target="_blank" className="hover:underline">
                 {link.name}
               </a>
               <span className="hidden opacity-50 last-of-type:hidden md:inline-block">
@@ -37,7 +39,7 @@ function Footer() {
                   <circle cx="12.1" cy="12.1" r="1" />
                 </svg>
               </span>
-            </>
+            </div>
           ))}
         </div>
       </div>

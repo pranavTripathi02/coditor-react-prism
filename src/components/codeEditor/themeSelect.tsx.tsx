@@ -17,7 +17,9 @@ const PrismThemeSelect = ({ theme, updateTheme }: TProps) => {
       <span>Theme: </span>
       <Select onChange={handleChange} defaultValue={theme}>
         {Object.keys(themes).map((theme) => (
-          <Option value={theme}>{theme}</Option>
+          <Option value={theme} key={theme}>
+            {theme}
+          </Option>
         ))}
       </Select>
     </label>
