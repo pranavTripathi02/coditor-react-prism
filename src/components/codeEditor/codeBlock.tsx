@@ -13,7 +13,9 @@ function CodeBlock({ prismTheme, prismLang }: TProps) {
   const handleCodeTextUpdate = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     setCodeText(e.target.value);
   };
-  // NOTE: For responsive ness
+  // PERF:
+  // textarea will respond sluggishly after 120+ lines
+  // NOTE: For responsiveness
   // Need to scroll textarea to update padding and margins after resizing browser
   // HACK:
   // textarea absolute positioning and calculated margin+padding to place caret at end of line
