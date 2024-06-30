@@ -1,9 +1,14 @@
-# React + TypeScript + Vite
+# Coditor
 ![Static Badge](https://img.shields.io/badge/React-1e1e1e?style=flat-square&logo=react)
 ![Static Badge](https://img.shields.io/badge/Typescript-1e1e1e?style=flat-square&logo=typescript)
 ![Static Badge](https://img.shields.io/badge/TailwindCSS-1e1e1e?style=flat-square&logo=tailwindcss)
 ![Static Badge](https://img.shields.io/badge/Vite-1e1e1e?style=flat-square&logo=vite)
 ![Static Badge](https://img.shields.io/badge/Prism-1e1e1e?style=flat-square&logo=prismjs)
+Simple code editor in React, using [PrismJS](https://github.com/PrismJS/prism) and [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer)
+
+## Links 
+[CodeSandbox](https://codesandbox.io/p/github/pranavTripathi02/coditor-react-prism/master)
+[Deployed on Netlify](https://bright-hamster-114d29.netlify.app/)
 
 # Prerequisites
 
