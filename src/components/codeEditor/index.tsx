@@ -6,7 +6,7 @@ import { langList } from "../../types/prismLanguages.ts";
 import PrismLangSelect from "./languageSelect.tsx";
 
 function CodeEditor() {
-  const [prismTheme, setPrismTheme] = useState<TTheme>("github");
+  const [prismTheme, setPrismTheme] = useState<TTheme>("dracula");
   const [prismLang, setPrismLang] = useState<TLang>(langList[1]);
   const updateTheme = (newTheme: TTheme) => {
     setPrismTheme(newTheme);
